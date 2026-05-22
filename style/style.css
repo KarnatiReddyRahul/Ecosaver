@@ -1,0 +1,91 @@
+/* 🌿 ECOSAVER Dashboard Styling (Modified - Bar Removed) */
+
+/* Global Page Style */
+body, .stApp {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f8fafc;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Title and Subheadings */
+h1, h2, h3, h4 {
+    color: #22c55e !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Info and Caption Text */
+p, .stMarkdown, .stText {
+    color: #e2e8f0 !important;
+    font-size: 1rem;
+}
+
+/* Removed .main-card dark box and rounded rectangle styling */
+
+/* Sidebar and Top Container */
+.block-container {
+    padding: 2rem 4rem !important;
+    background: transparent !important; /* transparent now */
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #22c55e, #16a34a);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg, #16a34a, #22c55e);
+    box-shadow: 0 0 12px rgba(34, 197, 94, 0.5);
+}
+
+/* DataFrame Table */
+.dataframe {
+    background-color: #1f2937;
+    color: #f1f5f9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+thead {
+    background-color: #22c55e !important;
+    color: #0f172a !important;
+}
+
+/* Streamlit Inputs */
+.stTextInput > div > div > input {
+    background: #1e293b;
+    color: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+/* Removed chart container dark background */
+.css-1kyxreq {
+    background: transparent !important;
+}
+
+/* Caption under charts */
+.stCaption {
+    color: #94a3b8 !important;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #22c55e;
+    border-radius: 10px;
+}
